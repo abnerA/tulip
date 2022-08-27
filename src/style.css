@@ -1,1 +1,538 @@
-@font-face{font-family:Dancing Script;src:url(3727d88dec67e1e78cf987dab60d9887.ttf)}:root{--fondo:#f5f5f5;--title:purple;--subTitulo:purple;--parr:#000;--footer:#ddaff8}body{background-color:var(--fondo);font-family:Dancing Script}.container{display:grid;grid-template-areas:"header" "main" "footer";grid-template-columns:100%;grid-template-rows:1fr;margin:auto;max-width:1000px;position:relative}.header{height:460px;width:100%}.header .banner{background-color:var(--fondo);display:block;height:60px;width:100%}.header .banner .titulo{display:inline-block;height:60px;position:relative;width:150px}.header .banner .titulo .home{text-decoration:none}.header .banner .titulo .home .logo{color:var(--title);font-size:50px;margin:0}nav{align-items:center;display:flex;float:right;height:60px;position:relative;width:50%}.nav-toggle{background:none;border:none;color:var(--title);cursor:pointer;display:none;font-size:30px;margin-top:14px}.menu{align-items:center;display:flex;margin:0 auto;padding:0}nav .menu li{display:inline-block;list-style-type:none;margin:5px}nav .menu li .item{color:var(--title);font-size:30px;margin:5px;padding:5px;text-decoration:none}nav .menu li .item:hover{text-decoration:underline}.header .carousel{display:block;height:400px;overflow:hidden;position:relative;width:100%}.carousel .cb-slideshow{margin:0;padding:0;width:100%}.header .carousel .cb-slideshow li{list-style:none}.carousel .cb-slideshow li span{-webkit-animation:imageAnimation 36s linear 0s infinite;-moz-animation:imageAnimation 36s linear 0s infinite;-o-animation:imageAnimation 36s linear 0s infinite;-ms-animation:imageAnimation 36s linear 0s infinite;animation:imageAnimation 36s linear 0s infinite;background-position:50%;background-repeat:no-repeat;background-size:cover;border-radius:5px;color:transparent;height:400px;opacity:0;position:absolute;width:100%}.cb-slideshow li:first-child span{background-image:url(Img/tulipan1.jpg)}.cb-slideshow li:nth-child(2) span{-webkit-animation-delay:6s;-moz-animation-delay:6s;-o-animation-delay:6s;-ms-animation-delay:6s;animation-delay:6s;background-image:url(Img/tulipan2.jpg)}.cb-slideshow li:nth-child(3) span{-webkit-animation-delay:12s;-moz-animation-delay:12s;-o-animation-delay:12s;-ms-animation-delay:12s;animation-delay:12s;background-image:url(Img/tulipan3.jpg)}.cb-slideshow li:nth-child(4) span{-webkit-animation-delay:18s;-moz-animation-delay:18s;-o-animation-delay:18s;-ms-animation-delay:18s;animation-delay:18s;background-image:url(Img/tulipan4.jpg)}.cb-slideshow li:nth-child(5) span{-webkit-animation-delay:24s;-moz-animation-delay:24s;-o-animation-delay:24s;-ms-animation-delay:24s;animation-delay:24s;background-image:url(Img/tulipan5.jpg)}.cb-slideshow li:nth-child(6) span{-webkit-animation-delay:30s;-moz-animation-delay:30s;-o-animation-delay:30s;-ms-animation-delay:30s;animation-delay:30s;background-image:url(Img/tulipan6.jpg)}@-webkit-keyframes imageAnimation{0%{-webkit-animation-timing-function:ease-in;opacity:0}8%{-webkit-animation-timing-function:ease-out;opacity:1}17%{opacity:1}25%{opacity:0}to{opacity:0}}@-moz-keyframes imageAnimation{0%{-moz-animation-timing-function:ease-in;opacity:0}8%{-moz-animation-timing-function:ease-out;opacity:1}17%{opacity:1}25%{opacity:0}to{opacity:0}}@-o-keyframes imageAnimation{0%{-o-animation-timing-function:ease-in;opacity:0}8%{-o-animation-timing-function:ease-out;opacity:1}17%{opacity:1}25%{opacity:0}to{opacity:0}}@-ms-keyframes imageAnimation{0%{-ms-animation-timing-function:ease-in;opacity:0}8%{-ms-animation-timing-function:ease-out;opacity:1}17%{opacity:1}25%{opacity:0}to{opacity:0}}@keyframes imageAnimation{0%{animation-timing-function:ease-in;opacity:0}8%{animation-timing-function:ease-out;opacity:1}17%{opacity:1}25%{opacity:0}to{opacity:0}}.main{overflow:hidden}.main,section{width:100%}.acerca_de,.cultivo,.history{display:flex;flex-basis:auto;flex-direction:row;flex-wrap:wrap;justify-content:space-between;margin:auto;max-width:95%}.div-parr-1-2{align-self:flex-start;width:40%}.div-img-tulip7{align-self:flex-start;padding-top:20px;width:58%}.tulip7,.tulip8{border-radius:5px;height:600px;width:100%}.div-parr-3-4{width:80%}.div-img-tulip8{align-self:center;padding-top:20px;width:58%}.div-cultivo-parr{align-self:flex-start;width:40%}.div-cultivo-parr-end{width:80%}.div-acerca-de-img{align-self:flex-start;height:200px;padding-top:20px;width:58%}.div-acerca-de-parr{width:40%}.div-acerca-de-parr-end{width:80%}.tulip9{border-radius:5px;height:450px;width:100%}.name{color:var(--subTitulo);font-size:35px;font-weight:700;margin:20px auto 0;width:90%}.parr{color:var(--parr);font-size:22px}.footer{background:var(--footer);border-radius:4px;height:40px;margin:0 auto;width:90%}.end{color:var(--parr);font-size:15px;font-weight:700;padding:10px;text-align:center;width:100%}@media (max-width:768px){.header{height:272px}nav{display:inline-block;width:40%}.nav-toggle{display:block;left:90%}.menu,.nav-toggle{position:fixed;z-index:2}.menu{background-color:#fff;border-radius:10px;flex-direction:column;height:198px;left:100%;margin:60px 0 40px 5%;opacity:80%;padding-top:15px;transition:left .8s;width:40%}nav .menu li{display:block;padding:10px}nav .menu li .item{font-size:25px}.menu_visible{left:60%}.nav-toggle:focus:not(:focus-visible){outline:none}.header .carousel{height:212px;z-index:1}.carousel .cb-slideshow li span{height:212px;width:100%}.name{font-size:30px;margin-top:15px;padding:10px}.parr{font-size:20px}.footer{align-items:center;display:flex;opacity:80%;width:95%}.end{font-size:15px}}@media (max-width:576px){nav{width:30%}.nav-toggle{left:87%}.div-img-tulip7{padding-top:10px}.tulip7,.tulip8{height:500px}.div-img-tulip8{align-self:center;width:58%}.parr{font-size:18px}.name{padding:0}.end{font-size:12px}}@media (max-width:450px){.div-cultivo-parr,.div-parr-1-2{order:1;width:90%}.div-img-tulip7,.div-img-tulip8{order:2;width:90%}.div-cultivo-parr-end,.div-parr-3-4{order:3;width:90%}.tulip7,.tulip8{height:300px}.div-acerca-de-img{order:2;padding:0;width:90%}.div-acerca-de-parr{order:1;width:90%}.div-acerca-de-parr-end{order:3;padding-top:40px;width:90%}.tulip9{border-radius:5px;height:250px;width:100%}}@media (max-width:414px){.acerca_de,.cultivo,.history{justify-content:center}.parr{font-size:18px}.img-tulip7{width:95%}.tulip7{height:300px}}@media (max-width:330px){.header{height:182px}.header .banner,.header .banner .titulo{height:50px}.carousel .cb-slideshow li span,.header .carousel{height:132px}.nav-toggle{left:78%;margin:10px}.header .banner .titulo .home .logo{font-size:40px}nav{border-radius:4px;height:50px;width:30%}.menu{height:128px;margin:50px 0 40px 5%;padding-top:5px}nav .menu li{padding:5px}nav .menu li .item{font-size:20px}.name{font-size:24px;margin-top:5px}}
+@font-face {
+  font-family: Dancing Script;
+  src: url(3727d88dec67e1e78cf987dab60d9887.ttf);
+}
+:root {
+  --fondo: #f5f5f5;
+  --title: purple;
+  --subTitulo: purple;
+  --parr: #000;
+  --footer: #ddaff8;
+}
+body {
+  background-color: var(--fondo);
+  font-family: Dancing Script;
+}
+.container {
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr;
+  margin: auto;
+  max-width: 1000px;
+  position: relative;
+}
+.header {
+  height: 460px;
+  width: 100%;
+}
+.header .banner {
+  background-color: var(--fondo);
+  display: block;
+  height: 60px;
+  width: 100%;
+}
+.header .banner .titulo {
+  display: inline-block;
+  height: 60px;
+  position: relative;
+  width: 150px;
+}
+.header .banner .titulo .home {
+  text-decoration: none;
+}
+.header .banner .titulo .home .logo {
+  color: var(--title);
+  font-size: 50px;
+  margin: 0;
+}
+nav {
+  align-items: center;
+  display: flex;
+  float: right;
+  height: 60px;
+  position: relative;
+  width: 50%;
+}
+.nav-toggle {
+  background: none;
+  border: none;
+  color: var(--title);
+  cursor: pointer;
+  display: none;
+  font-size: 30px;
+  margin-top: 14px;
+}
+.menu {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+}
+nav .menu li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 5px;
+}
+nav .menu li .item {
+  color: var(--title);
+  font-size: 30px;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+}
+nav .menu li .item:hover {
+  text-decoration: underline;
+}
+.header .carousel {
+  display: block;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.carousel .cb-slideshow {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.header .carousel .cb-slideshow li {
+  list-style: none;
+}
+.carousel .cb-slideshow li span {
+  -webkit-animation: imageAnimation 36s linear 0s infinite;
+  -moz-animation: imageAnimation 36s linear 0s infinite;
+  -o-animation: imageAnimation 36s linear 0s infinite;
+  -ms-animation: imageAnimation 36s linear 0s infinite;
+  animation: imageAnimation 36s linear 0s infinite;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  color: transparent;
+  height: 400px;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+}
+.cb-slideshow li:first-child span {
+  background-image: url(../Img/tulipan1.jpg);
+}
+.cb-slideshow li:nth-child(2) span {
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  -o-animation-delay: 6s;
+  -ms-animation-delay: 6s;
+  animation-delay: 6s;
+  background-image: url(../Img/tulipan2.jpg);
+}
+.cb-slideshow li:nth-child(3) span {
+  -webkit-animation-delay: 12s;
+  -moz-animation-delay: 12s;
+  -o-animation-delay: 12s;
+  -ms-animation-delay: 12s;
+  animation-delay: 12s;
+  background-image: url(../Img/tulipan3.jpg);
+}
+.cb-slideshow li:nth-child(4) span {
+  -webkit-animation-delay: 18s;
+  -moz-animation-delay: 18s;
+  -o-animation-delay: 18s;
+  -ms-animation-delay: 18s;
+  animation-delay: 18s;
+  background-image: url(../Img/tulipan4.jpg);
+}
+.cb-slideshow li:nth-child(5) span {
+  -webkit-animation-delay: 24s;
+  -moz-animation-delay: 24s;
+  -o-animation-delay: 24s;
+  -ms-animation-delay: 24s;
+  animation-delay: 24s;
+  background-image: url(../Img/tulipan5.jpg);
+}
+.cb-slideshow li:nth-child(6) span {
+  -webkit-animation-delay: 30s;
+  -moz-animation-delay: 30s;
+  -o-animation-delay: 30s;
+  -ms-animation-delay: 30s;
+  animation-delay: 30s;
+  background-image: url(../Img/tulipan6.jpg);
+}
+@-webkit-keyframes imageAnimation {
+  0% {
+    -webkit-animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  8% {
+    -webkit-animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-moz-keyframes imageAnimation {
+  0% {
+    -moz-animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  8% {
+    -moz-animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-o-keyframes imageAnimation {
+  0% {
+    -o-animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  8% {
+    -o-animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-ms-keyframes imageAnimation {
+  0% {
+    -ms-animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  8% {
+    -ms-animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes imageAnimation {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  8% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.main {
+  overflow: hidden;
+}
+.main,
+section {
+  width: 100%;
+}
+.acerca_de,
+.cultivo,
+.history {
+  display: flex;
+  flex-basis: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 95%;
+}
+.div-parr-1-2 {
+  align-self: flex-start;
+  width: 40%;
+}
+.div-img-tulip7 {
+  align-self: flex-start;
+  padding-top: 20px;
+  width: 58%;
+}
+.tulip7,
+.tulip8 {
+  border-radius: 5px;
+  height: 600px;
+  width: 100%;
+}
+.div-parr-3-4 {
+  width: 80%;
+}
+.div-img-tulip8 {
+  align-self: center;
+  padding-top: 20px;
+  width: 58%;
+}
+.div-cultivo-parr {
+  align-self: flex-start;
+  width: 40%;
+}
+.div-cultivo-parr-end {
+  width: 80%;
+}
+.div-acerca-de-img {
+  align-self: flex-start;
+  height: 200px;
+  padding-top: 20px;
+  width: 58%;
+}
+.div-acerca-de-parr {
+  width: 40%;
+}
+.div-acerca-de-parr-end {
+  width: 80%;
+}
+.tulip9 {
+  border-radius: 5px;
+  height: 450px;
+  width: 100%;
+}
+.name {
+  color: var(--subTitulo);
+  font-size: 35px;
+  font-weight: 700;
+  margin: 20px auto 0;
+  width: 90%;
+}
+.parr {
+  color: var(--parr);
+  font-size: 22px;
+}
+.footer {
+  background: var(--footer);
+  border-radius: 4px;
+  height: 40px;
+  margin: 0 auto;
+  width: 90%;
+}
+.end {
+  color: var(--parr);
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .header {
+    height: 272px;
+  }
+  nav {
+    display: inline-block;
+    width: 40%;
+  }
+  .nav-toggle {
+    display: block;
+    left: 90%;
+  }
+  .menu,
+  .nav-toggle {
+    position: fixed;
+    z-index: 2;
+  }
+  .menu {
+    background-color: #fff;
+    border-radius: 10px;
+    flex-direction: column;
+    height: 198px;
+    left: 100%;
+    margin: 60px 0 40px 5%;
+    opacity: 80%;
+    padding-top: 15px;
+    transition: left 0.8s;
+    width: 40%;
+  }
+  nav .menu li {
+    display: block;
+    padding: 10px;
+  }
+  nav .menu li .item {
+    font-size: 25px;
+  }
+  .menu_visible {
+    left: 60%;
+  }
+  .nav-toggle:focus:not(:focus-visible) {
+    outline: none;
+  }
+  .header .carousel {
+    height: 212px;
+    z-index: 1;
+  }
+  .carousel .cb-slideshow li span {
+    height: 212px;
+    width: 100%;
+  }
+  .name {
+    font-size: 30px;
+    margin-top: 15px;
+    padding: 10px;
+  }
+  .parr {
+    font-size: 20px;
+  }
+  .footer {
+    align-items: center;
+    display: flex;
+    opacity: 80%;
+    width: 95%;
+  }
+  .end {
+    font-size: 15px;
+  }
+}
+@media (max-width: 576px) {
+  nav {
+    width: 30%;
+  }
+  .nav-toggle {
+    left: 87%;
+  }
+  .div-img-tulip7 {
+    padding-top: 10px;
+  }
+  .tulip7,
+  .tulip8 {
+    height: 500px;
+  }
+  .div-img-tulip8 {
+    align-self: center;
+    width: 58%;
+  }
+  .parr {
+    font-size: 18px;
+  }
+  .name {
+    padding: 0;
+  }
+  .end {
+    font-size: 12px;
+  }
+}
+@media (max-width: 450px) {
+  .div-cultivo-parr,
+  .div-parr-1-2 {
+    order: 1;
+    width: 90%;
+  }
+  .div-img-tulip7,
+  .div-img-tulip8 {
+    order: 2;
+    width: 90%;
+  }
+  .div-cultivo-parr-end,
+  .div-parr-3-4 {
+    order: 3;
+    width: 90%;
+  }
+  .tulip7,
+  .tulip8 {
+    height: 300px;
+  }
+  .div-acerca-de-img {
+    order: 2;
+    padding: 0;
+    width: 90%;
+  }
+  .div-acerca-de-parr {
+    order: 1;
+    width: 90%;
+  }
+  .div-acerca-de-parr-end {
+    order: 3;
+    padding-top: 40px;
+    width: 90%;
+  }
+  .tulip9 {
+    border-radius: 5px;
+    height: 250px;
+    width: 100%;
+  }
+}
+@media (max-width: 414px) {
+  .acerca_de,
+  .cultivo,
+  .history {
+    justify-content: center;
+  }
+  .parr {
+    font-size: 18px;
+  }
+  .img-tulip7 {
+    width: 95%;
+  }
+  .tulip7 {
+    height: 300px;
+  }
+}
+@media (max-width: 330px) {
+  .header {
+    height: 182px;
+  }
+  .header .banner,
+  .header .banner .titulo {
+    height: 50px;
+  }
+  .carousel .cb-slideshow li span,
+  .header .carousel {
+    height: 132px;
+  }
+  .nav-toggle {
+    left: 78%;
+    margin: 10px;
+  }
+  .header .banner .titulo .home .logo {
+    font-size: 40px;
+  }
+  nav {
+    border-radius: 4px;
+    height: 50px;
+    width: 30%;
+  }
+  .menu {
+    height: 128px;
+    margin: 50px 0 40px 5%;
+    padding-top: 5px;
+  }
+  nav .menu li {
+    padding: 5px;
+  }
+  nav .menu li .item {
+    font-size: 20px;
+  }
+  .name {
+    font-size: 24px;
+    margin-top: 5px;
+  }
+}
