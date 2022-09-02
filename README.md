@@ -19,4 +19,5 @@ This has been my first project as a beginner in web development. Although there 
 I recognize that all the content was obtained from different internet sites, I will do my best to put a listing below showing where all the information came from, as they certainly deserve to be recognized for their good work.
 
 1. [Unsplash](https://unsplash.com/)
+2. [Icons8](https://iconos8.es/)
 2. Web site [Flores hermosas](https://www.floreshermosas.top/)
